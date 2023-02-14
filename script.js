@@ -40,3 +40,12 @@ const addBook = () => {
 };
 
 addBook();
+
+const getDataStored = JSON.parse(localStorage.getItem('data'));
+
+window.onload = () => {
+  if (getDataStored) {
+    inputAuthor.value = getDataStored.Author;
+    inputBook.value = getDataStored.Title;
+  }
+};

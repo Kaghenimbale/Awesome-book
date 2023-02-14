@@ -88,7 +88,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
   - cd my-folder
-  - git clone https://github.com/Kaghenimbale/Capstone-project.git
+  - git clone 
 
 ### Install
 
