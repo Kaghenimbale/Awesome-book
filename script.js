@@ -50,7 +50,7 @@ window.onload = () => {
   }
 };
 
-// REMOVE BOOK
+// Remove book
 
 const removeBook = () => {
   Container.addEventListener('click', (e) => {
