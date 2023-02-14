@@ -49,3 +49,16 @@ window.onload = () => {
     inputBook.value = getDataStored.Title;
   }
 };
+
+// REMOVE BOOK
+
+const removeBook = () => {
+  Container.addEventListener('click', (e) => {
+    if (e.target.classList.contains('remove')) {
+      const item = e.target.parentElement;
+      Container.removeChild(item);
+    }
+  });
+};
+
+removeBook();
