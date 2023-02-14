@@ -1,33 +1,3 @@
-<!-- TABLE OF CONTENTS -->
-
-# 📗 Table of Contents
-
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
-
-<!-- PROJECT DESCRIPTION -->
-
-# 📖 [Awesome_Book_List] <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
-
 **[Awesome_Book_List]** is a project that will allow people to add book list on the website page.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -61,9 +31,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-<!-- This website has not been deployed -->
+This website has not been deployed 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -87,14 +55,13 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
   - cd my-folder
-  - git clone https://github.com/Kaghenimbale/Awesome-book.git
+  - git clone [here](https://github.com/Kaghenimbale/Awesome-book.git)
 
 ### Install
 
 Install this project with:
 
   - cd my-project
-  - gem install
 
 ### Usage
 
@@ -112,8 +79,6 @@ To run tests, run the following command:
   - npx stylelint "**/*.{css,scss}"
 
 ### Deployment
-
-You can deploy this project using:
 
 This project has not been deployed
 
@@ -170,6 +135,12 @@ Give a start ⭐️ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks to cindy the Dsigner of the project Template
-
 Thank you Microverse and my friend who always explain me for preparing this project! clapclapclap
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/Kaghenimbale/Awesome-book/blob/main/Licence)) licensed.
