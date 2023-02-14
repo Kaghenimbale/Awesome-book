@@ -25,11 +25,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Festival_Amani_Website] <a name="about-project"></a>
+# 📖 [Awesome_Book_List] <a name="about-project"></a>
 
 > Describe your project in 1 or 2 sentences.
 
-**[Festival_Amani_Website]** is a project that will allow people to what the festival amani provide in Goma town and the date of the next session of the Amani festival.
+**[Awesome_Book_List]** is a project that will allow people to add book list on the website page.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -41,19 +41,7 @@
   <summary>Client</summary>
   <ul>
     <li><a href="https://html.com">Html</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Client</summary>
-  <ul>
     <li><a href="https://CSS.com/">CSS</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Client</summary>
-  <ul>
     <li><a href="https://www.javascript.com">Javascript</a></li>
   </ul>
 </details>
@@ -76,7 +64,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+<!-- This website has not been deployed -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,75 +80,43 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- Install Git on your computer following the steps [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- Install node js following the steps [here](https://www.pluralsight.com/guides/getting-started-with-nodejs)
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+  - cd my-folder
+  - git clone https://github.com/Kaghenimbale/Capstone-project.git
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+  - cd my-project
+  - gem install
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+  - cd my-project
+  - Open the index.html in the browser
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+  - cd my-project
+  - npx hint .
+  - npx stylelint "**/*.{css,scss}"
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+This project has not been deployed
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,17 +126,11 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Author1**
+👤 **Kagheni Mbale Christian**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Kaghenimbale)
+- Twitter: [@twitterhandle](https://twitter.com/MbaleKagheni)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kagheni-mbale-401b90240/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -190,9 +140,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[Styling of the website]**
+- [ ] **[Add more logic]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -210,9 +159,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+Give a start ⭐️ If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,34 +167,6 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+Thanks to cindy the Dsigner of the project Template
 
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Thank you Microverse and my friend who always explain me for preparing this project! clapclapclap
