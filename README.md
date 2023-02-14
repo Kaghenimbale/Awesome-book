@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <!-- TABLE OF CONTENTS -->
 
@@ -170,3 +171,6 @@ Give a start ⭐️ If you like this project...
 Thanks to cindy the Dsigner of the project Template
 
 Thank you Microverse and my friend who always explain me for preparing this project! clapclapclap
+=======
+# Awesome-book
+>>>>>>> 00ca4d5536581f83e4a11bce833e38d97488aa28
