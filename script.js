@@ -2,6 +2,7 @@ const form = document.getElementById('form');
 const inputBook = document.getElementById('book');
 const inputAuthor = document.getElementById('author');
 const Container = document.getElementById('container');
+const storedBookLocal = [];
 
 // Add Books
 
@@ -34,7 +35,9 @@ const addBook = () => {
     itemlist.appendChild(removeBtn);
     Container.append(itemlist);
 
-    const result = JSON.stringify(obj);
+    storedBookLocal.push(obj);
+    const result = JSON.stringify(storedBookLocal);
+
     localStorage.setItem('data', result);
   });
 };
@@ -43,12 +46,14 @@ addBook();
 
 const getDataStored = JSON.parse(localStorage.getItem('data'));
 
-window.onload = () => {
-  if (getDataStored) {
-    inputAuthor.value = getDataStored.Author;
-    inputBook.value = getDataStored.Title;
-  }
-};
+Array.from(getDataStored).map((list) => {
+  window.onload = () => {
+    if (list) {
+      inputAuthor.value = list.Author;
+      inputBook.value = list.Title;
+    }
+  };
+});
 
 // Remove book
 
