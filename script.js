@@ -46,7 +46,7 @@ addBook();
 
 const getDataStored = JSON.parse(localStorage.getItem('data'));
 
-Array.from(getDataStored).map((list) => {
+Array.from(getDataStored).forEach((list) => {
   window.onload = () => {
     if (list) {
       inputAuthor.value = list.Author;
