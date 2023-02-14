@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -41,9 +39,9 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://html.com">Html</a></li>
-    <li><a href="https://CSS.com/">CSS</a></li>
-    <li><a href="https://www.javascript.com">Javascript</a></li>
+    <li><a href="https://www.w3schools.com/html/">Html</a></li>
+    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://www.w3schools.com/javascript/">Javascript</a></li>
   </ul>
 </details>
 
@@ -89,7 +87,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
   - cd my-folder
-  - git clone 
+  - git clone https://github.com/Kaghenimbale/Awesome-book.git
 
 ### Install
 
@@ -133,6 +131,10 @@ This project has not been deployed
 - Twitter: [@twitterhandle](https://twitter.com/MbaleKagheni)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kagheni-mbale-401b90240/)
 
+👤 **Ernest Musong**
+
+- GitHub: [@githubhandle](https://github.com/ernestmusong)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -171,6 +173,3 @@ Give a start ⭐️ If you like this project...
 Thanks to cindy the Dsigner of the project Template
 
 Thank you Microverse and my friend who always explain me for preparing this project! clapclapclap
-=======
-# Awesome-book
->>>>>>> 00ca4d5536581f83e4a11bce833e38d97488aa28
