@@ -5,8 +5,9 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-body {
-  width: 100vw;
+.books-container {
+  width: 60vw;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,13 +23,13 @@ button {
   flex-direction: column;
   align-items: center;
   border: 2px solid black;
+  width: 100%;
 }
 
 #container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40vw;
   padding: 0.8rem;
 }
 
@@ -41,7 +42,7 @@ button {
 
 li {
   display: flex;
-  width: 100%;
+  width: 55vw;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem;
@@ -54,7 +55,7 @@ li:nth-child(odd) {
 .description {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 #remove {
@@ -73,7 +74,7 @@ li:nth-child(odd) {
 
 input {
   padding: 0.5rem 0.5rem;
-  width: 20vw;
+  width: 25vw;
   color: black;
   font-size: 1rem;
 }
