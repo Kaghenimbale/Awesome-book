@@ -60,12 +60,6 @@ const renderBooks = (books) => {
   
     const instanceBook = new Book(title, author, id);
     const createdBookElement = instanceBook.AddBook();
-    if(index%2 !== 0) {
-      createdBookElement.style.background = 'white';
-    }
-    else {
-      createdBookElement.style.background = 'lightgray';
-    }
     container.appendChild(createdBookElement);
   });
 

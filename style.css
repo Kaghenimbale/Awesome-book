@@ -35,6 +35,9 @@ li {
   justify-content: space-between;
   padding: 0.5rem;
 }
+li:nth-child(odd) {
+   background: lightgray;
+}
 
 .description {
   display: flex;
