@@ -30,3 +30,46 @@ class Book {
     return book;
   }
 }
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  const storeBookLocally = JSON.parse(localStorage.getItem(bookskey));
+  const Title = titleInput.value;
+  const Author = authorInput.value;
+  const last = storeBookLocally[storeBookLocally.length -1] 
+  const id = last ? last.id + 1 : 1; 
+  const book = new Book(Title, Author, id);
+  
+  const createSingleBook = book.AddBook();
+  const newsBooks = [...storeBookLocally]
+  newsBooks.push(book);
+  localStorage.setItem(bookskey, JSON.stringify(newsBooks));
+  container.appendChild(createSingleBook);
+  form.reset();
+  deleteBtns = document.querySelectorAll('#remove');
+  removeBook(deleteBtns);
+});
+
+// RemoveBook
+const renderBooks = (books) => {
+  container.innerHTML = "";
+  books.forEach((book, index) => {
+    const title = book.title;
+    const author = book.author;
+    const id = book.id;
+  
+    const instanceBook = new Book(title, author, id);
+    const createdBookElement = instanceBook.AddBook();
+    if(index%2 !== 0) {
+      createdBookElement.style.background = 'white';
+    }
+    else {
+      createdBookElement.style.background = 'lightgray';
+    }
+    container.appendChild(createdBookElement);
+  });
+
+  // Remove
+  deleteBtns = document.querySelectorAll('#remove');
+  removeBook(deleteBtns);
+};
