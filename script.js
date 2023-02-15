@@ -86,3 +86,8 @@ const removeBook = (deleteBtns) => {
     })
   });
 }
+
+window.addEventListener('DOMContentLoaded', () => {
+  const storeBookLocally = localStorage.getItem(bookskey) ? JSON.parse(localStorage.getItem(bookskey)) : [];
+  renderBooks(storeBookLocally);
+});
