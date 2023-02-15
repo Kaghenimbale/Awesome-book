@@ -73,3 +73,16 @@ const renderBooks = (books) => {
   deleteBtns = document.querySelectorAll('#remove');
   removeBook(deleteBtns);
 };
+
+const removeBook = (deleteBtns) => { 
+  deleteBtns.forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      const storeBookLocally = JSON.parse(localStorage.getItem(bookskey));
+      const bookId = Number(e.target.getAttribute("data-id"));
+      const filterBooks = storeBookLocally.filter((book) => book.id !== bookId);
+      renderBooks(filterBooks);
+
+      localStorage.setItem(bookskey, JSON.stringify(filterBooks))
+    })
+  });
+}
