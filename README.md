@@ -1,10 +1,34 @@
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Awesome_Book_List] <a name="about-project"></a>
+
 **[Awesome_Book_List]** is a project that will allow people to add book list on the website page.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -19,11 +43,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[Undestand how I can build a website by myself from scratch]**
-- **[Give myself a challenge to test my knowledges]**
-- **[Get real Experiance]**
+- **[Undestand how I can build a website plain JavaScript with objects]**
+- **[Undestand how I can refactor a website to use JavaScript classes]**
+- **[Complete website with navigation]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -31,15 +53,13 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-This website has not been deployed 
+This website has not been deployed. Coming soon...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -88,8 +108,6 @@ This project has not been deployed
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Kagheni Mbale Christian**
 
 - GitHub: [@githubhandle](https://github.com/Kaghenimbale)
@@ -105,8 +123,6 @@ This project has not been deployed
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Styling of the website]**
 - [ ] **[Add more logic]**
@@ -144,3 +160,6 @@ Thank you Microverse and my friend who always explain me for preparing this proj
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](https://github.com/Kaghenimbale/Awesome-book/blob/main/Licence)) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
