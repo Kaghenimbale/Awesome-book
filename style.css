@@ -65,8 +65,9 @@ body {
   width: 60vw;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
+  justify-content: center;
   padding: 2rem;
 }
 
@@ -191,4 +192,8 @@ footer p {
 
 .infos li {
   font-size: 1.2rem;
+}
+
+.display {
+  display: none;
 }
