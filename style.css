@@ -153,6 +153,8 @@ input::placeholder {
 }
 
 footer {
+  display: flex;
+  gap: 1rem;
   padding: 1rem 2rem;
   border: 2px solid black;
 }
@@ -161,4 +163,32 @@ footer p {
   color: black;
   font-size: 1.4rem;
   font-weight: bold;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.infos p {
+  font-size: 1.4rem;
+}
+
+.infos ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.infos li {
+  font-size: 1.2rem;
 }
