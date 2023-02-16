@@ -1,14 +1,4 @@
 {
-  "name": "awesome-book",
-  "version": "1.0.0",
-  "description": "<!-- TABLE OF CONTENTS -->",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
@@ -19,13 +9,5 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Kaghenimbale/Awesome-book.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Kaghenimbale/Awesome-book/issues"
-  },
-  "homepage": "https://github.com/Kaghenimbale/Awesome-book#readme"
+  }
 }
