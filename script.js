@@ -22,6 +22,7 @@ class Book {
 
   getBookElement = ({ title, author, id }) => {
     const newbook = document.createElement('li');
+    newbook.className = 'container-list';
     newbook.innerHTML = `
     <div class="description">
     <h2>${title}</h2>
