@@ -61,11 +61,18 @@ body {
   color: rgb(29, 29, 174);
 }
 
+.line {
+  width: 150px;
+  height: 3px;
+  background-color: black;
+  margin: 0.5rem 0;
+}
+
 .books-container {
   width: 60vw;
+  height: 60vh;
   margin: 0 auto;
   display: flex;
-  /* flex-direction: column; */
   align-items: center;
   justify-content: center;
   padding: 2rem;
@@ -158,6 +165,10 @@ footer {
   gap: 1rem;
   padding: 1rem 2rem;
   border: 2px solid black;
+  position: fixed;
+  bottom: 1rem;
+  left: 2rem;
+  right: 2rem;
 }
 
 footer p {
