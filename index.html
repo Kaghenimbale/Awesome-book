@@ -8,12 +8,25 @@
     <title>Awesome books</title>
 </head>
 <body>
+    <nav class="nav-bar">
+        <div class="logo"><a href="#">Awesome Books</a></div>
+        <ul class="nav-lists">
+            <li class="nav-list"><a href="#">List</a></li>
+            <li class="nav-list"><a href="#">Add new</a></li>
+            <li class="nav-list"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="date-time">
+        <h2>February 16th 2023, 7:08:32 AM</h2>
+    </div>
     <div class="books-container">
-        <h1>All awesome books</h1><br>
-        <div class="book-store">
-            <ul id="container"></ul><br>
+        <div class="render-books">
+            <h1>All awesome books</h1><br>
+            <div class="book-store">
+                <ul id="container"></ul><br>
+            </div>
         </div>
-        <div class="line"></div>
+
         <form id="form" action="#" method="#">
             <h2>Add a new book</h2>
             <label for="book">
@@ -27,6 +40,10 @@
             </div>
         </form>
     </div>
+
+    <footer>
+        <p>&copy COPYRIGHT</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
