@@ -4,7 +4,7 @@ const form = document.getElementById('form');
 const container = document.getElementById('container');
 const bookskey = 'books';
 
-export default class Book {
+class Book {
   constructor(books) {
     this.books = books;
   }
@@ -17,7 +17,7 @@ export default class Book {
       container.appendChild(bookElement);
     });
 
-    this.removeBook();
+    removeBook();
   }
 
   getBookElement = ({ title, author, id }) => {
@@ -42,18 +42,22 @@ export default class Book {
     form.reset();
   }
 
-  removeBook() {
-    const removeBtns = document.querySelectorAll('#remove');
+}
+const removeBook = () => {
+  const removeBtns = document.querySelectorAll('#remove');
 
-    removeBtns.forEach((removeBtn) => {
-      removeBtn.addEventListener('click', (e) => {
-        const { id } = e.target.dataset;
-        this.books = this.books.filter((book) => book.id !== +id);
-        localStorage.setItem(bookskey, JSON.stringify(this.books));
-        this.displayBooks();
-      });
+  removeBtns.forEach((removeBtn) => {
+    removeBtn.addEventListener('click', (e) => {
+      const storeBookLocally = localStorage.getItem(bookskey)
+      ? JSON.parse(localStorage.getItem(bookskey)) : [];
+      const { id } = e.target.dataset;
+      const books = storeBookLocally.filter((book) => book.id !== +id);
+      localStorage.setItem(bookskey, JSON.stringify(books));
+
+      const newBook = new Book(books);
+      newBook.displayBooks();
     });
-  }
+  });
 }
 
 export const renderDomContentDb = () => {
@@ -61,6 +65,7 @@ export const renderDomContentDb = () => {
     ? JSON.parse(localStorage.getItem(bookskey)) : [];
 
   const book = new Book(storeBookLocally);
+
   book.displayBooks();
 
   form.addEventListener('submit', (e) => {
@@ -73,4 +78,4 @@ export const renderDomContentDb = () => {
     };
     book.AddBook(bookData);
   });
-};
+}
