@@ -4,7 +4,7 @@ const form = document.getElementById('form');
 const container = document.getElementById('container');
 const bookskey = 'books';
 
-class Book {
+export default class Book {
   constructor(books) {
     this.books = books;
   }
@@ -56,7 +56,7 @@ class Book {
   }
 }
 
-window.addEventListener('DOMContentLoaded', () => {
+export const renderDomContentDb = () => {
   const storeBookLocally = localStorage.getItem(bookskey)
     ? JSON.parse(localStorage.getItem(bookskey)) : [];
 
@@ -73,4 +73,4 @@ window.addEventListener('DOMContentLoaded', () => {
     };
     book.AddBook(bookData);
   });
-});
+};
