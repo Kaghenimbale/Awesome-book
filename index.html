@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <title>Awesome books</title>
 </head>
 <body>
@@ -16,9 +16,7 @@
             <li id="contact" class="nav-list" data-id="contact"><a href="#">Contact</a></li>
         </ul>
     </nav>
-    <div class="date-time">
-        <h2>February 16th 2023, 7:08:32 AM</h2>
-    </div>
+    <div class="date-time" id="date-time"></div>
 
     <main class="books-container">
         <section class="render-books display" id="books-section">
@@ -65,7 +63,8 @@
         <span>__</span>
     </footer>
 
-    <script src="script.js"></script>
-    <script src="pages.js"></script>
+    <script type="module" src="index.js"></script>
+    <!-- <script src="./node_modules/luxon/build/global/luxon.js"></script> -->
+    <script src="node_modules/luxon/build/global/luxon.js"></script>
 </body>
 </html>
